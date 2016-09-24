@@ -1,24 +1,5 @@
-# README
+# Toy App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple toy rails app that has users that are associated to microposts. Following chapter 2 of the RoR tutorial by Michael Hartl (https://www.railstutorial.org/book/toy_app).
 
-Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
