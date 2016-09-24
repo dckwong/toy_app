@@ -11,8 +11,10 @@
 </p>
 
 <p>
-	<strong>Most Recent Post:</strong>
-	<%= @user.microposts.first.content %>
+	<% unless @user.microposts.empty? %>
+		<strong>Most Recent Post:</strong>
+		<%= @user.microposts.first.content %>
+	<% end %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
